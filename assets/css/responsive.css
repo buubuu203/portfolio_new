@@ -1,0 +1,435 @@
+/* BREAK POINT  */
+/* PC  */
+@media (min-width: 1024px) {
+	#content--skills-positions {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.content--skills-positions {
+		margin-bottom: 50px;
+	}
+	.content--bookie--description,
+	.content--blockchain-predict--description {
+		width: 50%;
+	}
+	.content--skills-positions .content--skills-front-end,
+	.content--skills-positions .content--skills-business-analyst {
+		background-color: rgba(0, 0, 0, 0.388);
+		width: 450px;
+		padding: 60px 30px;
+		border-radius: 20px;
+		box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.19);
+		line-height: 2;
+		margin: 50px;
+	}
+	#projects .col-half {
+		display: flex;
+		justify-content: space-evenly;
+		color: white;
+		font-weight: 600;
+	}
+	#projects {
+		padding-top: 50px;
+	}
+	#content .content--subheading h1,
+	#content .content--describing--job-position h1 {
+		padding: 10px 0px;
+		font-size: 30px;
+		font-weight: 600;
+		color: white;
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+	}
+	#content .content--describing--job-position h3 {
+		font-family: "LibreFranklin", "Poppins";
+		padding: 10px;
+		font-size: 20px;
+		font-weight: 400;
+		color: white;
+	}
+
+	#projects .content--bookie--description h2,
+	#projects .content--blockchain-predict--description h2 {
+		font-size: 28px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		line-height: 1.6;
+		color: white;
+		padding: 10px 50px;
+		text-transform: uppercase;
+	}
+
+	#projects .content--bookie--description p,
+	#projects .content--blockchain-predict--description p {
+		font-size: 18px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		line-height: 1.6;
+		background-color: rgba(0, 0, 0, 0.504);
+		box-shadow: 0 0 60px 0px rgb(0 0 0 / 33%);
+		padding: 30px 40px;
+		border-radius: 20px;
+		color: white;
+		margin: 16px 40px;
+		width: 90%;
+	}
+
+	#projects .content--blockchain-predict,
+	#projects .content--bookie {
+		padding: 20px;
+		margin: 10px;
+	}
+
+	#projects img {
+		width: 600px;
+		margin: auto;
+		height: 450px;
+		margin: 40px 10px 32px;
+	}
+}
+
+/* TABLET AND PC */
+@media (min-width: 740px) {
+	#header .menu-item {
+		display: none;
+	}
+
+	.slide {
+		padding: 50px 100px;
+		background-color: #00000042;
+		border-radius: 40px;
+		width: 70%;
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		margin: 2% 15%;
+		text-align: center;
+		box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.195);
+	}
+	#content .content--introduction {
+		display: flex;
+		margin-top: 120px;
+		justify-content: space-evenly;
+	}
+	#content .content--subheading {
+		padding: 50px;
+	}
+	#contact .contact--heading h1 {
+		font-size: 40px;
+		font-weight: 600;
+	}
+	#footer #contact {
+		color: white;
+		background-color: black;
+		font-family: "Worksan", "LibreFranklin", "Poppins";
+		padding: 50px 50px;
+		display: flex;
+	}
+	#contact .contact--address,
+	#contact .contact--tel a,
+	#contact .contact--email a {
+		padding-bottom: 10px;
+		display: flex;
+		color: white;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	.contact--social-network .contact--social-network--facebook img,
+	.contact--social-network .contact--social-network--instagram img,
+	.contact--social-network .contact--social-network--linkedin img,
+	.contact--social-network .contact--social-network--github img {
+		height: 50px;
+		margin: 25px 40px;
+		width: 50px;
+	}
+	.contact--right .contact--social-network {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.content--work-skills .content--work-skills--HTML-CSS-JS,
+	.content--work-skills .content--work-skills--english,
+	.content--work-skills .content--work-skills--SQL,
+	.content--work-skills .content--skills-positions,
+	.content--work-skills .content--work-skills--Git-github-figma {
+		background-color: rgba(0, 0, 0, 0.388);
+		margin: 6% 19%;
+		width: 60%;
+		padding: 50px 100px;
+		border-radius: 20px;
+		box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.19);
+		line-height: 2;
+		margin-bottom: 100px;
+	}
+	.content--work-skills h2 {
+		font-size: 30px;
+		font-weight: 600;
+		padding-bottom: 20px;
+		text-transform: uppercase;
+	}
+}
+/* tablet and mobile */
+@media (max-width: 1023px) {
+	.content--work-skills .content--work-skills--HTML-CSS-JS,
+	.content--work-skills .content--work-skills--english,
+	.content--work-skills .content--work-skills--SQL,
+	.content--work-skills .content--skills-positions,
+	.content--work-skills .content--work-skills--Git-github-figma,
+	.content--skills-positions .content--skills-front-end,
+	.content--skills-positions .content--skills-business-analyst {
+		background-color: rgba(0, 0, 0, 0.388);
+		margin: 8% 4% 0;
+		width: 92%;
+		padding: 24px 18px;
+		border-radius: 20px;
+		box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.19);
+		line-height: 2.8;
+		margin-bottom: 100px;
+		font-size: 16px;
+	}
+	.featured-project {
+		font-size: 20px;
+		font-weight: 500;
+		color: rgba(255, 255, 255, 0.771);
+		padding: 10px 50px;
+	}
+
+	#projects .content--bookie--description h2,
+	#projects .content--blockchain-predict--description h2 {
+		font-size: 28px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		line-height: 1.6;
+		color: white;
+		padding: 10px 50px;
+		text-transform: uppercase;
+	}
+
+	#projects .content--bookie--description p,
+	#projects .content--blockchain-predict--description p {
+		font-size: 18px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		line-height: 1.6;
+		background-color: rgba(0, 0, 0, 0.504);
+		box-shadow: 0 0 60px 0px rgb(0 0 0 / 33%);
+		padding: 30px 40px;
+		border-radius: 20px;
+		color: white;
+		margin: 16px 40px;
+		width: 90%;
+	}
+
+	#projects .content--blockchain-predict,
+	#projects .content--bookie {
+		padding: 20px;
+		margin: 10px;
+	}
+	.content--bookie--description,
+	.content--blockchain-predict--description {
+		width: 100%;
+	}
+}
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+	#header .search-btn {
+		display: none;
+	}
+	.content-quotes-head h1 {
+		font-size: 40px;
+		letter-spacing: 5px;
+		padding: 10px 20px;
+	}
+	#content .content--introduction--img {
+		width: 200px;
+		height: 250px;
+		margin: 75px 36px;
+		transform: translatey(0px);
+		animation: float 8s ease-in-out infinite;
+	}
+	#header .menu-item {
+		display: none;
+	}
+	#content {
+		color: white;
+		line-height: 2;
+	}
+	#content h1 {
+		font-size: 32px;
+		font-weight: 600;
+	}
+	.content--quotes-head h1 {
+		font-size: 46px;
+		padding: 0;
+	}
+	#content .content--introduction {
+		display: flex;
+		margin-top: 50px;
+	}
+	#projects img {
+		margin: 50px 0 20px;
+	}
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+	#header #nav {
+		display: none;
+	}
+	#header .menu-item {
+		display: block;
+	}
+	#content .content--subheading h1,
+	#content .content--describing--job-position h1 {
+		padding: 10px 0px;
+		font-size: 28px;
+		font-weight: 600;
+		color: white;
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+	}
+
+	.content--quotes .content--quotes-head h1 {
+		font-size: 32px;
+		letter-spacing: 0px;
+	}
+
+	.content--quotes-head .ti-quote-left,
+	.content--quotes-head .ti-quote-right {
+		font-size: 16px;
+	}
+	#footer #contact {
+		padding: 10px 10px;
+	}
+	#content .content--introduction img {
+		margin: 100px auto 20px;
+		display: flex;
+	}
+
+	#content .content--subheading {
+		text-align: center;
+		padding: 0;
+		line-height: 1.2;
+	}
+
+	.content--subheading h1 {
+		font-size: 24px;
+	}
+
+	.slide {
+		padding: 50px 30px;
+		background-color: #00000042;
+		border-radius: 40px;
+		width: 80%;
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		margin: 5% 10%;
+		text-align: center;
+		box-shadow: 0 3px 10px 0px rgb(0 0 0 / 20%);
+	}
+	#contact .contact--heading h1 {
+		font-size: 24px;
+		font-weight: 400;
+		margin-bottom: 20px;
+	}
+	#footer {
+		font-family: "Worksan", "LibreFranklin", "Poppins";
+		padding: 30px 25px;
+		background-color: black;
+		color: white;
+		font-size: 16px;
+		box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.326);
+	}
+	#contact .contact--address,
+	#contact .contact--tel a,
+	#contact .contact--email a {
+		padding-bottom: 10px;
+		display: flex;
+		color: white;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	.contact--social-network .contact--social-network--facebook img,
+	.contact--social-network .contact--social-network--instagram img,
+	.contact--social-network .contact--social-network--linkedin img,
+	.contact--social-network .contact--social-network--github img {
+		height: 35px;
+		width: 35px;
+		margin: 10px 26px;
+	}
+	.contact--right .contact--social-network {
+		display: flex;
+		justify-content: center;
+	}
+	#content .content--describing--job-position h3 {
+		font-family: "LibreFranklin", "Poppins";
+		padding: 10px;
+		font-size: 16px;
+		font-weight: 400;
+		color: white;
+	}
+
+	.content--work-skills h2 {
+		font-size: 20px;
+		font-weight: 600;
+		padding-bottom: 12px;
+		text-transform: uppercase;
+	}
+	.content--skills-positions h2 {
+		font-weight: 600;
+		font-size: 20px;
+	}
+	.content--skills-positions--img img {
+		display: flex;
+		margin: -50px auto 50px;
+		max-width: 80%;
+		max-height: 400px;
+	}
+	/* projects */
+
+	.featured-project {
+		font-size: 20px;
+		font-weight: 500;
+		color: rgba(255, 255, 255, 0.771);
+		padding: 10px 50px;
+	}
+
+	#projects .content--bookie--description h2,
+	#projects .content--blockchain-predict--description h2 {
+		font-size: 24px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		line-height: 1.6;
+		color: white;
+		padding: 10px 50px;
+		text-transform: uppercase;
+	}
+
+	#projects .content--bookie--description p,
+	#projects .content--blockchain-predict--description p {
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		line-height: 1.6;
+		background-color: rgba(0, 0, 0, 0.388);
+		box-shadow: 0 0 60px 0px rgb(0 0 0 / 33%);
+		padding: 24px 28px;
+		border-radius: 20px;
+		color: white;
+		margin: 20px auto;
+		width: 92%;
+	}
+
+	#projects .content--blockchain-predict,
+	#projects .content--bookie {
+		padding: 20px;
+		margin: 10px;
+	}
+
+	#projects img {
+		width: 90%;
+		margin: auto;
+		height: 80%;
+		margin: 40px 10px 32px;
+	}
+}

@@ -123,22 +123,9 @@ Kieu dang (kieu chu, hinh tron,..)
 	/* border-radius: 150px; */
 }
 
-#content .content--subheading p,
-#content .content--describing--characterize p {
-	font-family: "LibreFranklin", "Poppins";
-	font-weight: 400;
-	color: white;
-	padding: 10px 0px;
-}
-
 #content .content--subheading--name {
 	color: #e78d67;
 	font-weight: 400;
-}
-
-#content .content--describing {
-	padding: 30px;
-	text-align: center;
 }
 
 .content--qualities h1 {
@@ -287,7 +274,6 @@ Kieu dang (kieu chu, hinh tron,..)
 /* SKILLS */
 
 #skills {
-	padding-top: 50px;
 	text-align: center;
 	color: white;
 	border-top: 1px solid white;
@@ -298,7 +284,7 @@ Kieu dang (kieu chu, hinh tron,..)
 	text-transform: uppercase;
 	color: white;
 	padding-bottom: 40px;
-	padding-top: 30px;
+	padding-top: 50px;
 }
 
 .content--work-skills a {

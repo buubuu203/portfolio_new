@@ -25,14 +25,15 @@ Kieu dang (kieu chu, hinh tron,..)
 	/* thang nao chui ra khoi the cha -> mat luon  */
 	overflow: hidden;
 
-	background: linear-gradient(
-		0deg,
-		#9800c1 0%,
-		#af0ac2 25%,
-		#c418c3 50%,
-		#d826c4 75%,
-		#eb33c5 100%
+	background-image: linear-gradient(
+		to bottom,
+		#35a7c1,
+		#008bc7,
+		#006ccb,
+		#0048c2,
+		#1a0ba5
 	);
+
 	width: 100%;
 	height: fit-content;
 }

@@ -109,7 +109,7 @@ Kieu dang (kieu chu, hinh tron,..)
 }
 
 #content {
-	margin: 30px;
+	margin: 100px 30px 30px;
 }
 
 #content .content--introduction--img {
@@ -297,6 +297,7 @@ Kieu dang (kieu chu, hinh tron,..)
 	text-transform: uppercase;
 	color: white;
 	padding-bottom: 40px;
+	padding-top: 30px;
 }
 
 .content--work-skills a {

@@ -280,11 +280,11 @@ Kieu dang (kieu chu, hinh tron,..)
 }
 #skills h1 {
 	font-size: 40px;
+	padding-top: 80px;
 	font-weight: 600;
 	text-transform: uppercase;
 	color: white;
 	padding-bottom: 40px;
-	padding-top: 50px;
 }
 
 .content--work-skills a {

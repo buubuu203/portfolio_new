@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Inter", "Worksan", "LibreFranklin", "Poppins";
+	scroll-behavior: smooth;
+	font-size: 16px;
+}
+.header--heading {
+	margin-top: 60px;
+	color: white;
+	font-family: "Inter", "Worksans";
+	font-weight: 800;
+	text-align: center;
+
+	text-transform: uppercase;
+}
+#main {
+	background-image: linear-gradient(
+		to bottom,
+		#35a7c1,
+		#008bc7,
+		#006ccb,
+		#0048c2,
+		#1a0ba5
+	);
+	padding-top: 40px;
+	padding-bottom: 50px;
+	width: 100%;
+	height: fit-content;
+}

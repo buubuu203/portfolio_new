@@ -86,6 +86,38 @@
 		height: 400px;
 		margin: 40px 10px 32px;
 	}
+	#activities-content {
+		margin-top: 100px;
+		text-align: center;
+	}
+
+	#activities-content p {
+		color: white;
+		margin: 40px 200px 100px;
+		font-size: 28px;
+		color: white;
+		font-family: "Inter", "Worksans";
+		font-weight: 500;
+		font-style: italic;
+	}
+	#activities-content img {
+		box-shadow: 0 0 20px 0px rgba(63, 60, 60, 0.315);
+		border-radius: 20px;
+		height: 400px;
+		width: 600px;
+	}
+
+	.content--UIT-leader--img,
+	.content--BA-workshop--img,
+	.content--graduation--img,
+	.content--union-students--img,
+	.content--green-summer--img {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.header--heading {
+		font-size: 60px;
+	}
 }
 
 /* TABLET AND PC */
@@ -279,7 +311,41 @@
 		margin-top: 50px;
 	}
 	#projects img {
-		margin: 50px 0 20px;
+		margin: 50px 10px 20px;
+	}
+
+	#activities-content {
+		margin-top: 60px;
+		text-align: center;
+		margin: 60px 20px 0;
+	}
+
+	#activities-content p {
+		color: white;
+		margin: 20px 20px 40px;
+		font-size: 20px;
+		color: white;
+		font-family: "Inter", "Worksans";
+		font-weight: 500;
+		font-style: italic;
+	}
+	#activities-content img {
+		box-shadow: 0 0 20px 0px rgba(63, 60, 60, 0.315);
+		border-radius: 20px;
+		height: 200px;
+		width: 300px;
+	}
+	.header--heading {
+		font-size: 40px;
+	}
+
+	.content--UIT-leader--img,
+	.content--BA-workshop--img,
+	.content--graduation--img,
+	.content--union-students--img,
+	.content--green-summer--img {
+		display: flex;
+		justify-content: space-evenly;
 	}
 }
 
@@ -448,5 +514,30 @@
 		margin: auto;
 		height: 80%;
 		margin: 40px 10px 32px;
+	}
+
+	#activities-content {
+		margin-top: 60px;
+		text-align: center;
+		margin: 60px 20px 0;
+	}
+
+	#activities-content p {
+		color: white;
+		margin: 20px 12px 40px;
+		font-size: 20px;
+		color: white;
+		font-family: "Inter", "Worksans";
+		font-weight: 500;
+		font-style: italic;
+	}
+	#activities-content img {
+		box-shadow: 0 0 20px 0px rgba(63, 60, 60, 0.315);
+		border-radius: 20px;
+		height: 200px;
+		width: 320px;
+	}
+	.header--heading {
+		font-size: 32px;
 	}
 }
